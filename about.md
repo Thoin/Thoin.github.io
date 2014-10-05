@@ -8,6 +8,7 @@ I am and Electrical Engineering student attending Washkewicz College of Engineer
 -------
 But Instead of focusing on me, how about you find out where you are right now.
 
+<html>
 var map;
 
 function initialize() {
@@ -57,3 +58,4 @@ function handleNoGeolocation(errorFlag) {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+</html>
